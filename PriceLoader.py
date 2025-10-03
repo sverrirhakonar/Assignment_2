@@ -59,9 +59,6 @@ class PriceLoader:
                 price_data.append(prices)
         df = pd.concat(price_data, axis = 1)
         return df
+    
 
-
-
-
-
-
+    
