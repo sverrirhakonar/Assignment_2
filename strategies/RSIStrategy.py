@@ -1,5 +1,5 @@
 import pandas as pandas
-from base_strategy import Strategy
+from .base_strategy import Strategy
 
 class RSIStrategy(Strategy):
     def __init__(self, period=14, oversold_threshold=30):

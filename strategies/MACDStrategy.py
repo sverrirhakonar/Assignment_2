@@ -1,5 +1,5 @@
 import pandas as pd
-from base_strategy import Strategy
+from .base_strategy import Strategy
 
 class MACDStrategy(Strategy):
 
