@@ -19,7 +19,8 @@ class MACDStrategy(Strategy):
         crossover_events = (is_macd_above_signal.astype(int).diff() > 0)
 
         signals_df = pd.DataFrame(0, index=price_data.index, columns=price_data.columns)
-        buy_signals = crossover_events.shift(1)
+        buy_signals = crossover_events.shift(1).fillna(False).astype(bool)
+
         signals_df[buy_signals] = 1
 
         return signals_df

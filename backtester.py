@@ -6,6 +6,7 @@ from strategies.MACDStrategy import MACDStrategy
 from strategies.RSIStrategy import RSIStrategy
 from strategies.VolatilityBreakoutStrategy import VolatilityBreakoutStrategy
 
+
 class Backtester:
     def __init__(self, initial_cash = 1_000_000):
         self.initial_cash = initial_cash
