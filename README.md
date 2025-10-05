@@ -10,7 +10,7 @@ Design, implement, and evaluate multiple technical indicators across a large equ
 ## What's Inside? (File Descriptions)
 * **`strategyComparison.ipynb`** - The main notebook. **Run this to see the cumulative performance for all strategies**
 * **`PriceLoader.py`** - Loads every ticker in the S&P 500 from Wikipedia, downloads the price history for them, and makes a separate parquet file for each in the **`data/sp500prices`** folder.
-* **`backtester.py`** - A backtester used to backtest and track performance of different trading strategies.
+* **`backtester.py`** - A backtester used to backtest and track the performance of different trading strategies.
 * Inside the folder strategies, we have the following trading strategies that we test in **`strategyComparison.ipynb`**:
 * **`BenchmarkStrategy.py`** - A strategy with the logic: Buy X shares of each ticker on the first day
 * **`MovingAverageStrategy.py`** - A strategy with the logic: Buy if 20-day MA > 50-day MA
