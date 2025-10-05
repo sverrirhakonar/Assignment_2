@@ -3,7 +3,7 @@ Design, implement, and evaluate multiple technical indicators across a large equ
 
 ## How to Run
 1.  **Set up your environment**. Make sure you have your Python environment (like Anaconda) ready.
-2.  **Open the notebook**. Open the `strategyComparison` file in Jupyter Notebook.
+2.  **Open the notebook**. Open the `strategyComparison.ipynb` file in Jupyter Notebook.
 3.  **Run the code**. Run the cells in the notebook from top to bottom.
 4.  **See the results**. The notebook will show you the cumulative performance for all strategies.
 
